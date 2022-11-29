@@ -4,7 +4,7 @@ const bodyParser = require('body-parser');
 const app = express();
 app.use(bodyParser.urlencoded({ extended: true }));
 
-const port = 3000;
+const PORT = 3000;
 
 app.get('/', (req, res) => {
 	res.send(`
@@ -24,6 +24,6 @@ app.post('/', (req, res) => {
 	res.send('Account created!!!');
 });
 
-app.listen(port, () => {
-	console.log(`Listening on port ${port}`);
+app.listen(PORT, () => {
+	console.log(`Listening on http://localhost:${PORT}`);
 });

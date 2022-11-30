@@ -1,0 +1,27 @@
+[
+  {
+    "email": "test@test.com",
+    "password": "test",
+    "id": 1
+  },
+  {
+    "email": "m.boet@chello.nl",
+    "password": "m",
+    "id": "8c5d5d28"
+  },
+  {
+    "email": "creative.steve@gmail.com",
+    "password": "a",
+    "id": "70dcc86d"
+  },
+  {
+    "email": "m.boet@chello.nl",
+    "password": "1",
+    "id": "b601b038"
+  },
+  {
+    "email": "karlhadwen@gmail.com",
+    "password": "a",
+    "id": "bdf6c4ff"
+  }
+]
